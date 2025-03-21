@@ -16,8 +16,7 @@ class Student extends Person {
 	super(name,age)
 	}
 	study(){
-		return(
-			this.name+"is studying";
+		return this.name+"is studying";
 	}
 }
 
@@ -26,8 +25,7 @@ class Teacher extends Person {
 	super(name,age)
 	}
 		teach(){
-      return(
-		  this.name+"is teaching";
+      return this.name+"is teaching";
 	}
 }
 //const Person =new Person(name,age);

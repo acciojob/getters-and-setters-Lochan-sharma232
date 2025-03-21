@@ -33,6 +33,7 @@ const Person=new Person("John","25");
 const Student=new Student("Bob","40");
 console.log(Person.aboutPerson());
 console.log(Student.study());
+console.log(Teacher.teach())
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;

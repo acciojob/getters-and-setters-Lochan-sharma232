@@ -7,7 +7,7 @@ class Person {
 	aboutperson()
 	{
 		return(
-			this.get name+this.set age;
+			this.name+this.age;
 		);
 	}
 }

@@ -14,7 +14,7 @@ class Person {
 		return this._age;
 	}
 	set age(age){
-		return this=age;
+		 this=age;
 	}
 class Student extends Person {
 	constructor(name,age){
@@ -27,7 +27,7 @@ class Student extends Person {
 
 class Teacher extends Person {
 	constructor(name,age){
-	super(name,age)
+	super(name,age);
 	}
 		teach(){
       console.log(this.name+"is teaching");

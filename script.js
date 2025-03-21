@@ -4,7 +4,7 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	person1()
+	aboutperson()
 	{
 		return(
 			this.get name+"is the name of the person"+this.set age+"is the name of person"
@@ -13,13 +13,13 @@ class Person {
 }
 
 class Student extends Person {
-	
+	this.study="";
 }
 
 class Teacher extends Person {}
-const Person =new Person("Abhinav","60");
+const Person =new Person("John","25");
 const Student=new Student("","");
-console.log(Person.name());
+console.log(Person.aboutPerson());
 console.log(Student.study());
 // Do not change the code below this line
 window.Person = Person;

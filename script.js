@@ -7,10 +7,12 @@ class Person {
 	aboutperson()
 	{
 		return(
-			this.get name+"is the name of the person"+this.set age+"is the name of person"
+			this.get name+this.set age;
 		);
 	}
+console.log(person.name);
 }
+
 
 class Student extends Person {
 	this.study="";

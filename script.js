@@ -10,15 +10,19 @@ class Person {
 			this.get name+this.set age;
 		);
 	}
-console.log(person.name);
 }
-
-
 class Student extends Person {
 	this.study="";
+	study(){
+		console.log("name"+is studying);
+	}
 }
 
-class Teacher extends Person {}
+class Teacher extends Person {
+	teach(){
+		console.log("name"+is teaching);
+	}
+}
 const Person =new Person("John","25");
 const Student=new Student("","");
 console.log(Person.aboutPerson());

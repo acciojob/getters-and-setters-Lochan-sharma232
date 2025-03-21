@@ -12,15 +12,19 @@ class Person {
 	}
 }
 class Student extends Person {
-	this.study="";
+	constructor(name,age){
+	super(name,age)
+	}
 	study(){
-		console.log("name"+is studying);
+		return(
+			this.name+"is studying";
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		console.log("name"+is teaching);
+      return(
+		  "this.name"+"is teaching";
 	}
 }
 const Person =new Person("John","25");

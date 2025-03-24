@@ -93,7 +93,7 @@ class Teacher extends Person {
   }
 
   teach() {
-    console.log(`${John} is teaching`);
+    console.log(`${this.name} is teaching`);
   }
 }
 
